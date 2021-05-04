@@ -1,0 +1,40 @@
+{
+  "activationEvents": [
+		"onCommand:fennel-language-server.helloWorld",
+		"onLanguage:fennel"
+	],
+  "contributes": {
+		"commands": [
+			{
+				"command": "fennel-language-server.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "main": "./out/extension.js",
+  "name": "fennel-language-server",
+	"displayName": "Fennel Language Server",
+	"description": "Language Server for the Fennel programming language",
+	"version": "0.0.1",
+  "author": {
+    "email": "glinesbdev@gmail.com",
+    "name": "Bradyn Glines",
+    "url": "https://github.com/glinesbdev"
+  },
+  "publisher": "Bradyn Glines",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glinesbdev/fennel-language-server"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Fennel",
+    "Language Server"
+  ]
+}
